@@ -1,6 +1,7 @@
 package main;
 
 import utils.ProductInAFridge;
+import utils.ProductInARecipe;
 
 public class Main {
 
@@ -9,6 +10,9 @@ public class Main {
 
 		ProductInAFridge product1 = new ProductInAFridge("ziemniaki", "wegetarianski", 5, "szt.");
 		System.out.println(product1.toString());
+		
+		ProductInARecipe product2 = new ProductInARecipe("ziemniaki", "wegetarianski", 5, "szt.");
+		System.out.println(product2.toString());
 	}
 
 }
