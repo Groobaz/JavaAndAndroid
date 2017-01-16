@@ -8,9 +8,9 @@ public class Recipe {
 	private String recipe; // tekst przepisu
 	private Quisine quisine; // kuchnia (wloska, chinska, itp.)
 	private Device[] devicesToUse; //potrzebne urzadzenia
-	private Type type; // rodzaj (zupa, pizza, itp.)
+	private RecipeType type; // rodzaj (zupa, pizza, itp.)
 	
-	public Recipe(ProductInARecipe[] products, String recipe, Quisine quisine, Device[] devicesToUse, Type type) {
+	public Recipe(ProductInARecipe[] products, String recipe, Quisine quisine, Device[] devicesToUse, RecipeType type) {
 		super();
 		this.products = products;
 		this.recipe = recipe;
@@ -51,11 +51,11 @@ public class Recipe {
 		this.devicesToUse = devicesToUse;
 	}
 
-	public Type getType() {
+	public RecipeType getType() {
 		return type;
 	}
 
-	public void setType(Type type) {
+	public void setType(RecipeType type) {
 		this.type = type;
 	}
 

@@ -1,5 +1,5 @@
 package utils;
 
-public enum Type {
+public enum RecipeType {
 	SOUP, PIZZA, MAINCOURSE, DESSERT, OTHER;
 }
