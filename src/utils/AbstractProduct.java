@@ -1,10 +1,10 @@
 package utils;
 
 public abstract class AbstractProduct {
-	String name;
-	String type; //liquid, wagetable, meat
-	Integer quantity; // 0.5 ect
-	String quantityType; // ml, litry, gramy, kg ect. //warto to w przysz³oœci zamienic na enuma
+	private String name;
+	private String type; //liquid, wagetable, meat
+	private Integer quantity; // 0.5 ect
+	private String quantityType; // ml, litry, gramy, kg ect. //warto to w przysz³oœci zamienic na enuma
 	
 	@Override
 	public String toString() {
