@@ -1,6 +1,11 @@
 package utils;
 
-public abstract class AbstractProduct {
+import java.io.Serializable;
+
+public abstract class AbstractProduct implements Serializable {
+	
+	
+	private static final long serialVersionUID = 943214703072572058L;
 	private String name;
 	private String type; //liquid, wagetable, meat
 	private Integer quantity; // 0.5 ect

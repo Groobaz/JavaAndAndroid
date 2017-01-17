@@ -1,9 +1,12 @@
 package utils;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class Recipe {
+public class Recipe implements Serializable{
 
+	
+	private static final long serialVersionUID = 4193408031152959112L;
 	private ProductInARecipe[] products; // lista skladnikow
 	private String recipe; // tekst przepisu
 	private Quisine quisine; // kuchnia (wloska, chinska, itp.)
