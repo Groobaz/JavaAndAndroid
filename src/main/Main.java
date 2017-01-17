@@ -12,12 +12,10 @@ public class Main {
 		System.out.println(product1.toString());
 		
 		ProductInARecipe product2 = new ProductInARecipe("ziemniaki", "wegetarianski", 5, "szt.");
-<<<<<<< HEAD
+
 
 		System.out.println(product2.toString() + "utworzenie  go produktu1");
-=======
-	
->>>>>>> branch_testowy
+
 		
 		System.out.println("Nowy komentarz");
 	}
