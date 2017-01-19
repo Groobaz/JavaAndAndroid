@@ -9,7 +9,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-
 		ProductInAFridge product1 = new ProductInAFridge("ziemniaki", "wegetarianski", 5, "szt.");
 		System.out.println(product1.toString());
 		
